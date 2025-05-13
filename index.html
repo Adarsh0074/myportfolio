@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Bhardwaj | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AB</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times close-menu" id="closeMenu"></i>
+                <ul>
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="AdarshBhardwaj-resume.pdf" download class="resume-btn">Resume</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars open-menu" id="openMenu"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Adarsh Bhardwaj</span></h1>
+                    <h2>Full Stack Web Developer</h2>
+                    <p>I build responsive, user-friendly web applications with modern technologies. Passionate about creating clean, efficient code and delivering exceptional user experiences.</p>
+                    <div class="hero-btns">
+                        <a href="AdarshBhardwaj-resume.pdf" download class="btn primary-btn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-img">
+                        <img src="images/pic.jpg" alt="John Doe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <p>I'm a passionate Full Stack Web Developer with expertise in building modern web applications. With a strong foundation in both front-end and back-end technologies, I create responsive, user-friendly interfaces and robust server-side solutions.</p>
+                <p>My journey in web development began 5 years ago, and since then, I've worked on various projects ranging from e-commerce platforms to content management systems. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.</p>
+                <p>When I'm not coding, you can find me exploring new hiking trails, reading tech blogs, or contributing to open-source projects. I believe in writing clean, maintainable code and creating applications that provide exceptional user experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & <span class="highlight">Technologies</span></h2>
+            
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab-btn active" data-tab="tech-stack">Tech Stack</div>
+                    <div class="tab-btn" data-tab="tools">Tools</div>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tech-stack">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="images/html5.png" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/css.png" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/javascipt.png" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src=" images/react.png" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/node.png" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/express.png" alt="Express">
+                                <span>Express</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/mongo.png" alt="MongoDB">
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/sql.png" alt="SQL">
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/tailwind.png" alt="Tailwind CSS">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/bootstrap.png" alt="Bootstrap">
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="tools">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="images/vscode.png" alt="VS Code">
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/git.png" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/github.png" alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/figma.png" alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="images/postman.png" alt="Postman">
+                                <span>Postman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/multimart.png" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Multimart</h3>
+                        <p class="project-description">A full-stack e-commerce platform with product listings, cart functionality, user authentication, and payment processing.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adarsh0074/Multimart" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://multimart-ecommerce.onrender.com" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/circlespace.png" alt="Circle Space">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Circle Space</h3>
+                        <p class="project-description">CircleSpace is a social networking application that allows users to register, login, and interact with posts across different categories. Users can create posts, like, comment, and share content with others. The platform provides a clean, intuitive interface for community engagement organized by topics of interest.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>Firebase</span>
+                            <span> CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adarsh0074/Circle-Space" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://circle-spacee.netlify.app/" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/password.png" alt="Password Generator">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">PassCraft</h3>
+                        <p class="project-description">🔐 A customizable password generator built with React. Create secure, random passwords with options for length, symbols, numbers, and more..</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>React + Vite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adarsh0074/Password-Generator" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://passs-craft.netlify.app/" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/imdb.png" alt="IMDB Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">IMDB CLONE</h3>
+                        <p class="project-description">🎬 A responsive IMDb clone built with React that lets users search, explore, and view detailed movie info using the OMDb or TMDb API.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>JS</span>
+                            <span>Tailwind CSS</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adarsh0074/iMDB" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://i-mdb.vercel.app/" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github-stats" class="github-stats">
+        <div class="container">
+            <h2 class="section-title">GitHub <span class="highlight">Statistics</span></h2>
+            
+            <div class="stats-container">
+                <div class="stats-row">
+                    <div class="stats-card">
+                        <h3>GitHub Stats</h3>
+                        <img src="https://github-readme-stats.vercel.app/api?username=Adarsh0074&theme=default&show_icons=true&hide_border=true&count_private=true" alt="Adarsh0074's GitHub Stats" />
+                    </div>
+                    
+                    <div class="stats-card">
+                        <h3>Top Languages</h3>
+                        <div class="stats-placeholder">
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh0074&theme=default&show_icons=true&hide_border=true&layout=compact" alt="Adarsh0074's GitHub Stats" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card full-width">
+                    <h3>Contribution Calendar</h3>
+                        <img src="images/contributions.png" style="padding-left: 75px;"></img>
+                </div>
+                
+                <div class="github-profile-link">
+                    <a href="https://github.com/Adarsh0074" target="_blank" class="btn primary-btn" >
+                        <i class="fab fa-github"></i> View GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:john.doe@example.com">adarshbhardwaj345@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+1234567890">+91 8894315041</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <p class="contact-label">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/adarsh-bhardwaj-210750247/" target="_blank">linkedin/Adarsh Bhardwaj</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-text">
+                                <p class="contact-label">GitHub</p>
+                                <a href="https://github.com/Adarsh0074" target="_blank">github.com/Adarsh0074</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary-btn full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Adarsh0074" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adarsh-bhardwaj-210750247/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="adarshbhardwaj345@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="copyright">© <span id="currentYear"></span> Adarsh Bhardwaj. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -190,13 +190,15 @@ img {
   background-color: var(--primary-dark);
 }
 
-.open-menu, .close-menu {
+.open-menu {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--text-color);
+  color: #fff;
 }
-
+#fas{
+  display: none;
+}
 /* Hero Section */
 .hero {
   padding-top: 150px;
@@ -611,7 +613,9 @@ img {
 .copyright {
   color: rgba(255, 255, 255, 0.7);
 }
-
+.custom-color{
+  color:#ffff
+}
 /* Animations */
 @keyframes fadeIn {
   from {
@@ -660,7 +664,9 @@ img {
       transition: 0.5s;
       z-index: 1001;
   }
-  
+  .custom-color{
+  color:#047857
+}
   .nav-links.active {
       right: 0;
   }
@@ -670,8 +676,9 @@ img {
       gap: 20px;
   }
   
-  .open-menu, .close-menu {
+  .open-menu {
       display: block;
+      color:#047857
   }
   
   .close-menu {

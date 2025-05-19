@@ -10,7 +10,7 @@ const currentYearEl = document.getElementById('currentYear');
 currentYearEl.textContent = new Date().getFullYear();
 
 openMenuBtn.addEventListener('click', () => {
-    navLinks.classList.remove('active');
+    navLinks.classList.add('active');
 });
 
 closeMenuBtn.addEventListener('click', () => {

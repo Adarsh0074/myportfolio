@@ -118,3 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('scroll', animateOnScroll);
+
+
+

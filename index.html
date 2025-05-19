@@ -39,9 +39,9 @@ close
                     <h2>Full Stack Web Developer</h2>
                     <p>I build responsive, user-friendly web applications with modern technologies. Passionate about creating clean, efficient code and delivering exceptional user experiences.</p>
                     <div class="hero-btns">
-                        <a href="AdarshBhardwaj-resume.pdf" download class="btn primary-btn">
-                            <i class="fas fa-download"></i> Download Resume
-                        </a>
+                        <a href="#" class="btn primary-btn" onclick="openbutton()">
+  <i class="fas fa-download"></i> Download Resume
+</a>
                         <a href="#contact" class="btn secondary-btn">Contact Me</a>
                     </div>
                 </div>
@@ -383,5 +383,16 @@ close
     </footer>
 
     <script src="script.js"></script>
+    <script>
+  function openbutton() {
+    window.open("AdarshBhardwaj-Resume.pdf", "_blank");
+
+  const link = document.createElement("a");
+  link.href = "AdarshBhardwaj-Resume.pdf";
+  link.target = "_blank";
+  link.download = "AdarshBhardwaj-Resume.pdf"; 
+  link.click();
+}
+</script>
 </body>
 </html>
